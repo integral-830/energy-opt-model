@@ -46,17 +46,6 @@ It provides a full end-to-end simulation framework with:
     * *Demand vs Generation*
     * *Delivered Energy & Revenue Curves*
     * *Financial summary tables*
-
-> **Pro Tip:** If your Markdown renderer (like GitHub or GitLab) supports it, you could also use **Mermaid** for a professional diagram.
->
-> ```mermaid
-> graph TD
->     A[Data Generation / Loading<br/><i>Synthetic or Real (5-year weather + IEX data)</i>] --> B(AI/ML Forecasting<br/><i>Random Forest / Prophet / LSTM<br/>Predicts next 24h demand and prices</i>)
->     B --> C{Optimization Layer<br/><i>Heuristic MPC / LP-MPC (PuLP)<br/>DC Power Flow (θ-angle, reactance-based)</i>}
->     C --> D[Economics & Feasibility Model<br/><i>CAPEX, OPEX, NPV, IRR<br/>Scenario-based ROI projections</i>]
->     D --> E[Visualization Outputs<br/><i>Demand vs Generation<br/>Delivered Energy & Revenue Curves<br/>Financial summary tables</i>]
-> ```
-
 ---
 
 ## 🧩 Project Structure
@@ -140,4 +129,4 @@ LP optimization results (lp_rolling_results.csv)
 Demand–generation & revenue plots
 
 Finance summary (finance_summary.csv)
-'''
+---
