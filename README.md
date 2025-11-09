@@ -122,7 +122,7 @@ energy_opt_model/
 ### 🔹 Local Environment
 ```bash
 python -m venv venv
-source venv/bin/activate  # (Windows: venv\Scripts\activate)
+source venv/bin/activate
 pip install -r requirements.txt
 python main.py
 
@@ -140,3 +140,4 @@ LP optimization results (lp_rolling_results.csv)
 Demand–generation & revenue plots
 
 Finance summary (finance_summary.csv)
+'''
